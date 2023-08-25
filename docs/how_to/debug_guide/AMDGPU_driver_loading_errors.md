@@ -5,13 +5,13 @@ Below lists the dmseg errors related to AMDGPu driver not loading:
 -   **GPU init fatal error**
    
     ```
-    dmesg \| grep -i \"Fatal error during GPU init\"
+    dmesg | grep -i "Fatal error during GPU init"
     amdgpu 0000:03:00.0: Fatal error during GPU init
     ```
 -   **UCX link status**
 
     ```
-    dmesg \| grep mlx
+    dmesg | grep mlx
     mlx5_core 0000:21:00.0 enp33s0f0: Link up
     mlx5_core 0000:21:00.1 enp33s0f1: Link down
     ```
