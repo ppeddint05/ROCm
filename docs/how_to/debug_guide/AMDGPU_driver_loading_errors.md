@@ -26,7 +26,7 @@ Below lists the dmseg errors related to AMDGPu driver not loading:
 -   **segfault error**
 
     ```
-    segfault at 0 ip 00007f5bcba462e5 sp 00007ffd0810a180 error 4 in libnuma.so.1.0.0\[7f5bcba40000+a000\]
+    segfault at 0 ip 00007f5bcba462e5 sp 00007ffd0810a180 error 4 in libnuma.so.1.0.0[7f5bcba40000+a000]
     ```
 
 -   **doorbell allocation failure**
