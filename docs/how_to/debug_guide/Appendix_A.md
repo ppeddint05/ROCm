@@ -2,11 +2,7 @@
 
 **Debug switch for commonly used ROCM stack (non-exhaustive)**
 
-This table in itself is still non-exhaustive. The last column of the
-table provides a link to specific source (usually header file) files
-where user can explore all debug symbol definitions, if necessary.
-Unless otherwise said, all logs' outputs are to stdout, stderr not
-capture in specific path.
+This table in itself is still non-exhaustive. The last column of the table provides a link to specific source (usually header file) files where user can explore all debug symbol definitions, if necessary. Unless otherwise said, all logs generated from debug symbols outputs to stdout.
 
 | ROCM Component       | DEBUG OPTION                               | Values                                                                                                        | Description (unless   self-explanatory)                        | Debug symbol def in   source file/Link to more documentation for more information                |
 |----------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
