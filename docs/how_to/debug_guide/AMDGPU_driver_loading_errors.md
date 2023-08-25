@@ -36,6 +36,6 @@ Below lists the dmseg errors related to AMDGPu driver not loading:
     amdgpu: Failed to create process device data
     ```
 
-Any of the above errors given will indicate an issue with the KFD Driver not loading properly. One can try the steps stated in [Common hardware debug methods](#common-hardware-debug-methods) to troubleshoot the errors, if not kindly file a ticket on JIRA or send an email to <instinct-support@amd.com> with rocmtechsupport/dmesg logs attached.
+Any of the above errors given will indicate an issue with the KFD Driver not loading properly. One can try the steps stated in [Common hardware debug methods](./Common_hardware_debug_methods.md) to troubleshoot the errors, if not kindly file a ticket on JIRA or send an email to <instinct-support@amd.com> with rocmtechsupport/dmesg logs attached.
 
 
