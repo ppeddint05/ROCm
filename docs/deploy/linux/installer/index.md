@@ -21,7 +21,7 @@ Instructions for upgrading an existing ROCm installation.
 :link: uninstall
 :link-type: doc
 
-Steps for removing ROCm packages libraries and tools.
+Steps for removing ROCm packages, libraries and tools.
 :::
 
 ::::
