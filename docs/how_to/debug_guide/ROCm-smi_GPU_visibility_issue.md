@@ -37,7 +37,7 @@ Figure 1 shows the debug flowchart for the rocm-smi GPU visibility issue whose e
     crw-rw-rw- 1 root root 226, 0 May 23 08:43 card0
     ```
 
-    If the the GPU cards are visible as `card*`, then check if `lspci` outputs the GPU cards. To further debug the `lspci` not displaying the GPU cards, refer to [common hardware Debug methods](#common-hardware-debug-methods) section.
+    If the the GPU cards are visible as `card*`, then check if `lspci` outputs the GPU cards. To further debug the `lspci` not displaying the GPU cards, refer to [common hardware Debug methods](./common-hardware-debug-methods) section.
 
 -   Check if AMDGPU driver is loaded,
 
@@ -79,7 +79,7 @@ Figure 1 shows the debug flowchart for the rocm-smi GPU visibility issue whose e
         [Fri May 22 15:26:41 2020] amdgpu: probe of 0000:26:00.0 failed with error -2  
         ```
 
-    -   If there are any such errors, you see in the dmesg log, refer [AMDGPU driver loading errors](#amdgpu-driver-loading-errors) for further help.
+    -   If there are any such errors, you see in the dmesg log, refer [AMDGPU driver loading errors](./amdgpu-driver-loading-errors) for further help.
 
     -   If that doesn't resolve, file an AMD JIRA ticket attaching the logs from running the [rocmtechsupport script](https://github.com/amddcgpuce/rocmtechsupport/)
 

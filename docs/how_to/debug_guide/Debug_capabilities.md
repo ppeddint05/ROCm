@@ -1,16 +1,16 @@
 ## **Debug Capabilities**
 
-**Commonly used debug** **commands**
+**Commonly used debug commands**
 
--    The following commands or script can be used to gather the DMESG for troubleshooting:
+-   The following commands or script can be used to gather the DMESG for troubleshooting:
 
         - `dmesg -T`
         - `journalctl`
         - [ROCm Tech Support](https://github.com/amddcgpuce/rocmtechsupport/)
 
--    Enable journal service to persist logs across reboots. Once enabled, it will start on reboot:
-
-        ```
+-   Enable journal service to persist logs across reboots. Once enabled, it will start on reboot:
+        
+	```
 	sudo systemctl restart systemd-journald.service
         sudo journalctl -b [For current boot logs]
         sudo journalctl -b -1 [Minus one for previous boot logs]
@@ -28,6 +28,7 @@
         ```
 	sudo journalctl -b -1 > prev_bootlogs-`hostname``date +%m_%d_%H_%M_%S`.log
 	```									     										 
+
 -    How to restart the journal service:
 	
         ```
