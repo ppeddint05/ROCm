@@ -1,6 +1,6 @@
 # **AMDGPU driver loading errors**
 
-Below lists the dmseg errors related to AMDGPu driver not loading:
+Below lists the dmseg errors related to AMDGPU driver not loading:
 
 -   **GPU init fatal error**
    
